@@ -1,11 +1,10 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import About from '@/components/About/About'
 import Separator from '@/components/shared/Separator/Separator'
 import Hero from '@/components/Hero/Hero'
 import RoadMap from '@/components/RoadMap/RoadMap'
-// import Contact from '@/components/Contact/Contact'
 import Team from '@/components/Team/Team'
+import Tokenomics from '@/components/Tokenomics/Tokenomics'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,14 +14,11 @@ export default function Home() {
     <Hero/>
      <Separator/>
     <About/>
-     {/* <Separator/> */}
-    {/* <HowToBuy/> */}
      <Separator/>
     <RoadMap/>
     <Separator/>
     <Tokenomics/>
     <Separator/>
-    {/* <Contact/>    */}
     <Team/>
 
    </>

@@ -1,19 +1,19 @@
-import React, { ReactNode } from 'react'
-import Navibar from './Navibar'
-import Footer from './Footer'
+import React, { ReactNode } from "react";
+import Navibar from "./Navibar";
+import Footer from "./Footer";
 
 interface Props {
-    children: ReactNode
+  children: ReactNode;
 }
 
-const Layout = ({ children }: Props) => {
-    return (
-        <>
-            <Navibar />
-            {children}
-            <Footer />
-        </>
-    )
+function Layout({ children }: Props) {
+  return (
+    <React.Fragment>
+      <Navibar />
+      {children}
+      <Footer />
+    </React.Fragment>
+  );
 }
 
-export default Layout
+export default Layout;

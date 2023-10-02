@@ -12,8 +12,8 @@ function Navibar() {
 
   return (
     <div className="w-full shadow-2xl">
-      <ComponentWrapper style="py-8 ">
-        <div className="w-full h-[90px] md:h-[150px] flex justify-between items-center">
+      <ComponentWrapper style="">
+        <div className="w-full  h-[90px] md:h-[150px] flex justify-between items-center">
           {/* ==> logo */}
           <div className="w-[120px] md:w-[140px] h-[80px]  md:h-[130px] relative">
             <Image
@@ -41,8 +41,8 @@ function Navibar() {
             })}
           </div>
 
-          {/* ==> button */}
-          <div className="w-[160px] h-[53px] hidden lg:flex justify-center hover:bg-white-main/20 items-center border-[2px] border-white-main rounded-[30px]">
+            {/* ==> button */}
+            <div className="w-[160px] h-[53px] hidden lg:flex justify-center hover:bg-white-main/20 items-center border-[2px] border-white-main rounded-[30px]">
             <button className="lowercase text-[22px] font-semibold text-white-main">
               buy now
             </button>
