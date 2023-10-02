@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import About from '@/components/About/About'
 import Separator from '@/components/shared/Separator/Separator'
 import Hero from '@/components/Hero/Hero'
+import RoadMap from '@/components/RoadMap/RoadMap'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +16,7 @@ export default function Home() {
      <Separator/>
     {/* <HowToBuy/> */}
      <Separator/>
-    {/* <RoadMap/> */}
+    <RoadMap/>
     <Separator/>
     {/* <Tokenomics/> */}
     <Separator/>
