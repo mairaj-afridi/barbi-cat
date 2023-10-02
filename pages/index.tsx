@@ -4,6 +4,7 @@ import About from '@/components/About/About'
 import Separator from '@/components/shared/Separator/Separator'
 import Hero from '@/components/Hero/Hero'
 import RoadMap from '@/components/RoadMap/RoadMap'
+// import Contact from '@/components/Contact/Contact'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,15 +14,15 @@ export default function Home() {
     <Hero/>
      <Separator/>
     <About/>
-     <Separator/>
+     {/* <Separator/> */}
     {/* <HowToBuy/> */}
      <Separator/>
     <RoadMap/>
     <Separator/>
-    {/* <Tokenomics/> */}
+    <Tokenomics/>
     <Separator/>
     {/* <Contact/>    */}
-    {/* <Team/> */}
+    <Team/>
 
    </>
   )
