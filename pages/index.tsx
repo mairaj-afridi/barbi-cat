@@ -5,6 +5,7 @@ import Separator from '@/components/shared/Separator/Separator'
 import Hero from '@/components/Hero/Hero'
 import RoadMap from '@/components/RoadMap/RoadMap'
 // import Contact from '@/components/Contact/Contact'
+import Team from '@/components/Team/Team'
 
 const inter = Inter({ subsets: ['latin'] })
 
