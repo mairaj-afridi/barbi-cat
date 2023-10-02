@@ -12,7 +12,7 @@ function Navibar() {
 
   return (
     <div className="w-full shadow-2xl">
-      <ComponentWrapper style="py-8">
+      <ComponentWrapper style="py-8 ">
         <div className="w-full h-[90px] md:h-[150px] flex justify-between items-center">
           {/* ==> logo */}
           <div className="w-[120px] md:w-[140px] h-[80px]  md:h-[130px] relative">

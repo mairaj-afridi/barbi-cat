@@ -5,7 +5,8 @@ import { Fade } from "react-awesome-reveal";
 
 function About() {
   return (
-    <ComponentWrapper style="py-8 ">
+    <div className="w-full shadow-2xl">
+    <ComponentWrapper style="">
       <div
         id="about"
         className="w-full min-h-screen flex justify-center items-center overflow-x-hidden"
@@ -50,6 +51,7 @@ function About() {
         </div>
       </div>
     </ComponentWrapper>
+    </div>
   );
 }
 
