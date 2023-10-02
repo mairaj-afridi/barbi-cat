@@ -14,8 +14,8 @@ function Team() {
         <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 gap-8">
           {TeamData.map((member, index) => {
             return (
-              <Slide cascade={true} triggerOnce={true}>
-                <TeamCart key={index} teamArray={TeamData[index]} />;
+              <Slide key={index} cascade={true} triggerOnce={true}>
+                <TeamCart name={member.name} status={member.status} image={member.image} />
               </Slide>
             );
           })}
